@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="116dp"
+    >
+
+    <View
+        android:id="@+id/shadowView"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/item_shadow"/>
+
+    <RelativeLayout
+        android:id="@+id/innerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/item_clickable_background"
+        >
+
+        <TextView
+            android:id="@+id/textView_avatar"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="14dp"
+            android:background="@drawable/avatar_circle"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="A"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/textView_seller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="18dp"
+            android:text="IME PRODAVNICE"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="29dp"
+            android:text="Suma"
+            android:textSize="14sp"
+            android:textColor="@color/purple_200"/>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="27dp"
+            android:text="Datum"
+            android:textSize="14sp"
+            android:textColor="@color/purple_200"/>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="240dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="27dp"
+            android:text="Status"
+            android:textSize="14sp"
+            android:textColor="@color/purple_200"/>
+
+
+        <TextView
+            android:id="@+id/textview_totalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5.5dp"
+            android:text="00.00 €"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/textView_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:text="00.00.0000"
+            android:textSize="14sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="240dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:text="Uspješno"
+            android:textSize="14sp"
+            android:textColor="#18A300"/>
+
+        <TextView
+            android:id="@+id/textView_iic"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
