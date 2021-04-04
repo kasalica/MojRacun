@@ -1,0 +1,2 @@
+# MojRacun
+receipt qr scanner
